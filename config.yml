@@ -1,0 +1,27 @@
+logout-time: 20
+messages:
+  start-combat-info: "Jestes podczas walki! Nie wylogowywuj sie!"
+  end-combat-info: "Zakonczyles walke. Mozesz sie wylogowac!"
+  logout-broadcast:
+    enabled: true
+    message: "Gracz {nick} wylogowal sie podczas walki!"
+
+options:
+  block-enderchest: false
+  block-ender-pearl: false
+  bossbar:
+    enabled: true
+    start-combat-info: "&cANTY-LOGOUT"
+    end-combat-info: "&aANTY-LOGOUT"
+    end-combat-info-time: 1
+  commands: whitelist
+  whitelist-commands:
+    - msg
+    - helpop
+    - ban
+    - kick
+  blacklist-commands:
+    - spawn
+    - tpa
+    - tpaccept
+    - warp
