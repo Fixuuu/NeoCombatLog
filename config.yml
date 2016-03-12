@@ -7,6 +7,9 @@ messages:
     message: "Gracz {nick} wylogowal sie podczas walki!"
 
 options:
+  death-on:
+    logout: true
+    kick: false
   block-enderchest: false
   block-ender-pearl: false
   bossbar:

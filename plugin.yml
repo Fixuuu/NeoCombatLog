@@ -1,0 +1,11 @@
+name: NeoCombatLog
+version: 0.1 ALPHA
+author: Kukubaczek
+description: Zabezpieczenie przed wylogowywaniem sie podczas walki
+
+main: net.kukubaczek.neocombatlog.Main
+
+commands:
+  walka:
+    description: Dynamiczna zmiana slotow
+    aliases: [ct, combattag, czyjestempodczaswalki, neocombatlog, combatlog]
